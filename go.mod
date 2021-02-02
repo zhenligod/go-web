@@ -1,9 +1,9 @@
-module github.com/zhenligod/go-api
+module github.com/zhenligod/go-web
 
 go 1.13
 
 require (
-	github.com/zhenligod/thingo v1.0.1
+	github.com/zhenligod/thingo v1.0.2
 	github.com/gin-gonic/gin v1.6.3
 	github.com/gomodule/redigo v1.8.3
 	github.com/jinzhu/gorm v1.9.16

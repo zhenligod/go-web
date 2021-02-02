@@ -3,9 +3,9 @@ package routes
 import (
 	"time"
 
-	"github.com/zhenligod/go-api/app/controller"
-	"github.com/zhenligod/go-api/app/helper"
-	"github.com/zhenligod/go-api/app/middleware"
+	"github.com/zhenligod/go-web/app/controller"
+	"github.com/zhenligod/go-web/app/helper"
+	"github.com/zhenligod/go-web/app/middleware"
 
 	"github.com/gin-gonic/gin"
 )

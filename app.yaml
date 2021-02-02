@@ -1,6 +1,6 @@
 #配置文件
 AppEnv: "local"
-AppName: go-api
+AppName: go-web
 
 #redis配置
 RedisCommon:

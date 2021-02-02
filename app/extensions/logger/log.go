@@ -5,7 +5,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/zhenligod/go-api/app/helper"
+	"github.com/zhenligod/go-web/app/helper"
 
 	"github.com/zhenligod/thingo/gutils"
 	"github.com/zhenligod/thingo/logger"

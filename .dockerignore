@@ -6,8 +6,8 @@ bin/*
 docs/*
 .gitignore
 app.yaml
-go-api
-go-api.ini
+go-web
+go-web.ini
 LICENSE
 readme.md
 *.md

@@ -1,4 +1,4 @@
-# 编译go-api阶段
+# 编译go-web阶段
 FROM golang:1.13.12 AS go-builder
 
 # 设置golang环境变量和禁用CGO,开启go mod机制
@@ -8,7 +8,7 @@ ENV  GO111MODULE=on CGO_ENABLED=0 GOOS=linux GOPROXY=https://goproxy.cn,https://
 WORKDIR /mygo
 COPY .  /mygo
 
-RUN go build -a -installsuffix cgo -o go-api
+RUN go build -a -installsuffix cgo -o go-web
 
 # 构建镜像
 FROM alpine:3.12
@@ -31,10 +31,10 @@ RUN echo "export LC_ALL=$LANG"  >>  /etc/profile \
 #工作目录
 WORKDIR /go
 
-COPY --from=go-builder /mygo/go-api .
+COPY --from=go-builder /mygo/go-web .
 
 EXPOSE 1338 2338
 
 VOLUME [ "/go/logs","/go/conf"]
 
-CMD [ "/go/go-api","-log_dir=/go/logs","-config_dir=/go/conf"]
+CMD [ "/go/go-web","-log_dir=/go/logs","-config_dir=/go/conf"]

@@ -4,9 +4,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/zhenligod/go-api/app/extensions/logger"
-	"github.com/zhenligod/go-api/app/logic"
-	"github.com/zhenligod/go-api/config"
+	"github.com/zhenligod/go-web/app/extensions/logger"
+	"github.com/zhenligod/go-web/app/logic"
+	"github.com/zhenligod/go-web/config"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gomodule/redigo/redis"

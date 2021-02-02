@@ -15,8 +15,8 @@
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:811
     github.com/gin-gonic/gin.(*Context).AbortWithStatusJSON(...)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:155
-    go-api/app/middleware.(*LogWare).Recover.func1.1(0xc000dbd760)
-    	/web/go/go-api/app/middleware/LogWare.go:60 +0x299
+    go-web/app/middleware.(*LogWare).Recover.func1.1(0xc000dbd760)
+    	/web/go/go-web/app/middleware/LogWare.go:60 +0x299
     panic(0xbcfbc0, 0xc000d5cb40)
     	/usr/local/go/src/runtime/panic.go:679 +0x1b2
     github.com/gin-gonic/gin/render.JSON.Render(...)
@@ -25,28 +25,28 @@
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:768 +0x13f
     github.com/gin-gonic/gin.(*Context).JSON(...)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:811
-    go-api/app/controller.(*BaseController).ajaxReturn(0x12d7628, 0xc000dbd760, 0x0, 0xca344a, 0x2, 0xb61ca0, 0xc001900d20)
-    	/web/go/go-api/app/controller/BaseController.go:31 +0x2a5
-    go-api/app/controller.(*BaseController).Success(...)
-    	/web/go/go-api/app/controller/BaseController.go:44
-    go-api/app/controller.(*IndexController).Hello(0x12d7628, 0xc000dbd760)
-    	/web/go/go-api/app/controller/IndexController.go:32 +0x3af
+    go-web/app/controller.(*BaseController).ajaxReturn(0x12d7628, 0xc000dbd760, 0x0, 0xca344a, 0x2, 0xb61ca0, 0xc001900d20)
+    	/web/go/go-web/app/controller/BaseController.go:31 +0x2a5
+    go-web/app/controller.(*BaseController).Success(...)
+    	/web/go/go-web/app/controller/BaseController.go:44
+    go-web/app/controller.(*IndexController).Hello(0x12d7628, 0xc000dbd760)
+    	/web/go/go-web/app/controller/IndexController.go:32 +0x3af
     github.com/gin-gonic/gin.(*Context).Next(0xc000dbd760)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 +0x3b
-    go-api/app/helper.Monitor.func1(0xc000dbd760)
-    	/web/go/go-api/app/helper/utils.go:36 +0x51
+    go-web/app/helper.Monitor.func1(0xc000dbd760)
+    	/web/go/go-web/app/helper/utils.go:36 +0x51
     github.com/gin-gonic/gin.(*Context).Next(0xc000dbd760)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 +0x3b
-    go-api/app/middleware.TimeoutHandler.func1(0xc000dbd760)
-    	/web/go/go-api/app/middleware/ReqWare.go:48 +0x19a
+    go-web/app/middleware.TimeoutHandler.func1(0xc000dbd760)
+    	/web/go/go-web/app/middleware/ReqWare.go:48 +0x19a
     github.com/gin-gonic/gin.(*Context).Next(0xc000dbd760)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 +0x3b
-    go-api/app/middleware.(*LogWare).Recover.func1(0xc000dbd760)
-    	/web/go/go-api/app/middleware/LogWare.go:69 +0x5b
+    go-web/app/middleware.(*LogWare).Recover.func1(0xc000dbd760)
+    	/web/go/go-web/app/middleware/LogWare.go:69 +0x5b
     github.com/gin-gonic/gin.(*Context).Next(0xc000dbd760)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 +0x3b
-    go-api/app/middleware.(*LogWare).Access.func1(0xc000dbd760)
-    	/web/go/go-api/app/middleware/LogWare.go:32 +0x150
+    go-web/app/middleware.(*LogWare).Access.func1(0xc000dbd760)
+    	/web/go/go-web/app/middleware/LogWare.go:32 +0x150
     github.com/gin-gonic/gin.(*Context).Next(0xc000dbd760)
     	/mygo/pkg/mod/github.com/gin-gonic/gin@v1.4.0/context.go:124 +0x3b
     github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000294280, 0xc000dbd760)

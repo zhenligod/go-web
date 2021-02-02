@@ -3,7 +3,7 @@ package logic
 import (
 	"errors"
 
-	"github.com/zhenligod/go-api/app/model"
+	"github.com/zhenligod/go-web/app/model"
 
 	"github.com/jinzhu/gorm"
 	"github.com/zhenligod/thingo/mysql"

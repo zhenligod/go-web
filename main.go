@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/zhenligod/go-api/config"
+	"github.com/zhenligod/go-web/config"
 	// "github.com/pkg/profile"
 
 	"github.com/gin-gonic/gin"
@@ -22,7 +22,7 @@ import (
 	"github.com/zhenligod/thingo/monitor"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/zhenligod/go-api/app/routes"
+	"github.com/zhenligod/go-web/app/routes"
 )
 
 var (
@@ -41,7 +41,7 @@ func init() {
 
 	// 日志文件设置
 	logger.SetLogDir(logDir)
-	logger.SetLogFile("go-api.log")
+	logger.SetLogFile("go-web.log")
 	logger.MaxSize(500)
 
 	// 由于app/extensions/logger基于thingo/logger又包装了一层，所以这里是3

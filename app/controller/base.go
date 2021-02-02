@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/zhenligod/go-api/app/extensions/logger"
+	"github.com/zhenligod/go-web/app/extensions/logger"
 )
 
 const (
